@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+*{
+    margin: 0;
+    padding: 50px 50px 30px 70px;
+    box-sizing: border-box;
+    font-family:'Courier';
+
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: bisque;
+    
+
+}
+.bax1{
+    height:80%;
+    width: 50%;
+    background-color:black;
+}
+.box{
+    height:40px;
+    width: 30px;
+    position: relative;
+    animation-name: harry1;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-name: harry2;
+    animation-fill-mode: initial;
+    animation-iteration-count:infinite;
+    animation-timing-function:cubic-bezier(0,.68,.57,.67);
+    /*animation-direction:reverse;*/
+  
+    
+    
+
+}
+
+@keyframes harry1{
+    from{
+left: 0;
+    }
+    to{
+left: 100%;
+
+    }
+}
+
+@keyframes harry2 {
+    0%{
+        left: 0;
+        top:0;
+      
+        rotate: 0deg;
+    }
+    25%{
+left:70%;
+background-color: rgb(255, 221, 127);
+top:0%;
+rotate: 365deg;
+    }
+    50%{left:70%;
+background-color: rgb(206, 255, 127);
+top:70%;
+rotate: 365deg;}
+
+75%{
+    left:0;
+background-color: rgb(193, 127, 255);
+top:70%;
+rotate: 365deg;}
+
+
+    100%{
+left:0;
+top:0;
+background-color: blueviolet;
+rotate: 0deg;
+
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="bax1">
+    <div class="box">
+    </div>
+       
+    </div>
+</body>
+</html>
+
+</htm>
